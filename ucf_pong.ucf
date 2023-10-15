@@ -1,0 +1,13 @@
+NET "clk"  LOC = "C9";
+NET "reset" LOC = "N17";
+
+NET "rgb<2>"  LOC = "H14";// blue
+NET "rgb<1>"  LOC = "H15";//green
+NET "rgb<0>"  LOC = "G15";//red
+
+NET "btn<0>" LOC = "V4" | PULLDOWN ; // up
+NET "btn<1>" LOC = "K17"| PULLDOWN ; // down 
+
+
+NET "hsync"  LOC = "F15"  ;
+NET "vsync"  LOC = "F14" ;
